@@ -2,7 +2,7 @@
 def ingresar_entero():
     while True:
         try:
-            num = int(input("\nIngrese un número entero: "))
+            num = int(input("\nIngrese un Número Entero: "))
             print(f"\nEl número ingresado es correcto.\n")
             break
         except ValueError:
